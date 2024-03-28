@@ -1,0 +1,94 @@
+@media (max-width: 576px) {
+  .headline .title {
+    font-size: 40px;
+  }
+  .headline .subtitle {
+    left: 3%;
+  }
+  header .top-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .top-area i {
+    color: #D9D9D9;
+  }
+  header .main-navbar {
+    padding: 15px;
+  }
+  header .active-navbar .contact-us-btn {
+    display: block !important;
+  }
+  #intro h1 {
+    font-size: 30px;
+  }
+  #intro .online-reservation {
+    margin: 5% 0;
+  }
+  #about .video-area .background-img {
+    height: 200px;
+  }
+  #about .right-area {
+    margin-left: 0;
+    margin-top: 10%;
+  }
+  #services .service-gallery .gallery-img {
+    height: 400px;
+  }
+  #services ul {
+    flex-wrap: wrap;
+  }
+  #services ul li {
+    width: 100% !important;
+  }
+  #services ul li:not(:last-child) {
+    border-right: none;
+  }
+  #services .imgs {
+    display: none;
+  }
+  #gallery .gallery-area .top {
+    margin-bottom: 0 !important;
+  }
+  #gallery .img-area {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1180px) {
+  .headline .subtitle {
+    left: 21%;
+  }
+  header .top-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .top-area i {
+    color: #D9D9D9;
+  }
+  header .main-navbar {
+    padding: 15px;
+  }
+  header .active-navbar .contact-us-btn {
+    display: block !important;
+  }
+  #intro h1 {
+    font-size: 45px;
+  }
+  #intro .online-reservation {
+    margin: 5% 0;
+  }
+  #about .video-area .background-img {
+    height: 380px;
+  }
+  #about .right-area {
+    margin-left: 0;
+    margin-top: 5%;
+  }
+  #gallery .gallery-area .top {
+    margin-bottom: 0 !important;
+  }
+  #gallery .img-area {
+    margin-bottom: 15px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

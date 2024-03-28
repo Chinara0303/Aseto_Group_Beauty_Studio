@@ -1,0 +1,380 @@
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+section {
+  padding-block: 60px;
+  background-color: #181818;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.headline {
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.headline .title {
+  font-family: "Island Moments", cursive;
+  font-size: 64px;
+  opacity: 0.1;
+}
+.headline .subtitle {
+  font-family: "Inknut Antiqua", serif;
+  color: white;
+  position: absolute;
+  top: 35%;
+  letter-spacing: 2px;
+  left: 31%;
+}
+.headline p {
+  font-size: 12px;
+}
+
+main {
+  position: relative;
+}
+main .setting-area {
+  transform: translateX(100px);
+  transition: all 0.4s linear;
+  position: fixed;
+  top: 27%;
+  right: 0;
+  z-index: 999;
+  background-color: #D9D9D9;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 5px 14px;
+  height: 128px;
+}
+main .setting-area .setting-icon {
+  position: absolute;
+  top: 25px;
+  right: 100px;
+  background-color: #D9D9D9;
+  cursor: pointer;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 5px 10px;
+}
+@-webkit-keyframes turn {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@keyframes turn {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+main .setting-area .setting-icon i {
+  -webkit-animation: turn 2s infinite;
+          animation: turn 2s infinite;
+}
+main .active-switch {
+  transform: translate(0);
+}
+main #intro {
+  font-family: "rubik", sans-serif;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-block: 30px;
+}
+main #intro header .active-navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  border-bottom: 1px solid #D9D9D9;
+  background-color: #181818;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+main #intro header .active-navbar .contact-us-btn {
+  display: none;
+}
+main #intro header .active-navbar nav ul {
+  justify-content: center !important;
+}
+main #intro header .main-navbar {
+  transition: all 0.3s linear;
+}
+main #intro header .main-navbar .contact-us-btn {
+  text-align: end;
+}
+main #intro header .main-navbar .contact-us-btn a {
+  background: #D9D9D9;
+  color: #2D2B2B;
+  text-align: center;
+  padding: 6px 20px;
+  font-size: 14px;
+}
+main #intro header .main-navbar nav {
+  margin: 20px 101px 0 0;
+}
+main #intro header .main-navbar nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  list-style: none;
+}
+main #intro header .main-navbar nav ul li {
+  margin-left: 20px;
+}
+main #intro header .main-navbar nav ul li a {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+main #intro header .responsive-navbar {
+  background-color: #181818;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  padding: 20px;
+  transform: translateX(-1000px);
+  transition: all 0.4s linear;
+}
+main #intro header .responsive-navbar .close-menu {
+  text-align: end;
+}
+main #intro header .responsive-navbar .close-menu i {
+  color: #D9D9D9;
+}
+main #intro header .responsive-navbar nav ul {
+  list-style: none;
+  margin-top: 30px;
+}
+main #intro header .responsive-navbar nav ul li {
+  margin-bottom: 10px;
+}
+main #intro header .responsive-navbar nav ul li a {
+  color: #D9D9D9;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+main #intro header .active-responsive-navbar {
+  transform: translateX(0);
+}
+main #intro h1 {
+  font-size: 64px;
+  width: 59%;
+  margin: 28% auto 2%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: "Inknut Antiqua", serif;
+}
+main #intro .online-reservation {
+  text-align: center;
+  margin-bottom: 2%;
+}
+main #intro .online-reservation a {
+  padding: 10px 20px;
+  border: 1px solid;
+  color: white;
+}
+main #intro p {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+main #about {
+  color: white;
+}
+main #about h1,
+main #about h3 {
+  font-family: "Inknut Antiqua", serif;
+}
+main #about .video-area {
+  margin-top: 50px;
+  position: relative;
+}
+main #about .video-area .background-img {
+  width: 100%;
+  height: 300px;
+  background-color: #D9D9D9;
+}
+main #about .video-area .cover-img img {
+  position: absolute;
+}
+main #about .video-area .cover-img img:first-child {
+  top: 5px;
+  left: 10px;
+}
+main #about .video-area .cover-img img:last-child {
+  top: 40%;
+  left: 45%;
+}
+main #about .right-area {
+  margin-left: 30px;
+  margin-top: 30%;
+}
+main #about .right-area .contact-us-btn {
+  margin-top: 90px;
+}
+main #about .right-area .contact-us-btn a {
+  background: transparent;
+  text-align: center;
+  padding: 10px 50px;
+  font-size: 14px;
+  border: 1px solid white;
+  color: white;
+}
+main #about .right-area p {
+  text-align: justify;
+}
+main #services .imgs {
+  background-color: #D9D9D9;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+main #services .imgs .img-area {
+  width: 85px;
+  margin: auto;
+}
+main #services ul {
+  display: flex;
+  padding: 0;
+  color: white;
+}
+main #services ul li {
+  width: 21%;
+  list-style: none;
+  text-align: center;
+  padding: 30px;
+  border-bottom: 1px solid #D9D9D9;
+}
+main #services ul li:not(:last-child) {
+  border-right: 1px solid #D9D9D9;
+}
+main #services .service-gallery {
+  display: flex;
+  justify-content: space-evenly;
+}
+main #services .service-gallery .gallery-img {
+  height: 672px;
+}
+main #services .service-gallery .gallery-img img {
+  height: 100%;
+}
+main #gallery .headline .subtitle {
+  position: initial;
+}
+main #gallery .gallery-area {
+  margin-top: 30px;
+}
+main #gallery .gallery-area .img-area {
+  border: 1px solid #D9D9D9;
+  position: relative;
+}
+main #gallery .gallery-area .top {
+  margin-bottom: 20px;
+}
+main #gallery .gallery-area .youtube-icon {
+  position: absolute;
+  top: 41%;
+  left: 35%;
+  width: 55px;
+  height: 35px;
+}
+main #employees .headline .subtitle {
+  position: initial;
+}
+main #employees .employees-gallery {
+  margin: 30px 0;
+}
+main #employees .employees-gallery .employee {
+  border: 1px solid #D9D9D9;
+  height: 485px;
+  margin-left: 20px;
+}
+main #employees .employees-gallery .employee .img-area {
+  width: auto;
+  height: 415px;
+}
+main #employees .employees-gallery .employee .img-area img {
+  width: 100%;
+  height: 100%;
+}
+main #employees .employees-gallery .employee .content {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", serif;
+}
+main #employees .employees-gallery .employee .content span {
+  font-size: 12px;
+}
+main #price-list .headline .subtitle {
+  position: initial;
+}
+main #price-list .price-list-area {
+  background-color: #D9D9D9;
+  padding: 15px;
+  margin: 30px 0;
+}
+main #price-list .price-list-area h2 {
+  text-align: center;
+  color: #535353;
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 600;
+}
+main #price-list .price-list-area ul {
+  width: 65%;
+  margin: auto;
+  padding: 0;
+}
+main #price-list .price-list-area ul li {
+  margin-top: 10px;
+}
+main #price-list .price-list-area ul li p,
+main #price-list .price-list-area ul li span {
+  font-size: 13px;
+  font-family: "Poppins", serif;
+}
+main #price-list .price-list-area ul li span {
+  font-weight: 600;
+}
+main #price-list .price-list-area ul li .term {
+  font-size: 11px;
+}
+main #price-list .price-list-area ul li p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+footer {
+  background-color: #D9D9D9;
+  padding-block: 30px;
+}
+footer .footer-box {
+  margin-bottom: 20px;
+}
+footer .footer-box p {
+  font-size: 12px;
+}
+footer .footer-box p:first-child {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */

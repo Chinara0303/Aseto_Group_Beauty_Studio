@@ -1,0 +1,163 @@
+@media (max-width:576px) {
+    .headline {
+        .title {
+            font-size: 40px;
+        }
+
+        .subtitle {
+            left: 3%;
+        }
+    }
+
+    header {
+        .top-area {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            i {
+                color: #D9D9D9;
+            }
+        }
+
+        .main-navbar {
+            padding: 15px;
+        }
+
+        .active-navbar {
+            .contact-us-btn {
+                display: block !important;
+            }
+        }
+
+    }
+
+    #intro {
+        h1 {
+            font-size: 30px;
+        }
+
+        .online-reservation {
+            margin: 5% 0;
+        }
+    }
+
+    #about {
+        .video-area {
+            .background-img {
+                height: 200px;
+            }
+        }
+
+        .right-area {
+            margin-left: 0;
+            margin-top: 10%;
+        }
+    }
+
+    #services {
+        .service-gallery {
+            .gallery-img {
+                height: 400px;
+            }
+        }
+
+        ul {
+            flex-wrap: wrap;
+
+            li {
+                width: 100% !important;
+
+                &:not(:last-child) {
+                    border-right: none;
+                }
+            }
+        }
+
+        .imgs {
+            display: none;
+        }
+    }
+
+    #gallery {
+        .gallery-area {
+            .top {
+                margin-bottom: 0 !important;
+            }
+        }
+
+        .img-area {
+            margin-bottom: 10px;
+        }
+    }
+
+
+}
+
+@media (min-width:768px) and (max-width:1180px) {
+    .headline {
+        .subtitle {
+            left: 21%;
+        }
+    }
+
+    header {
+        .top-area {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            i {
+                color: #D9D9D9;
+            }
+        }
+
+        .main-navbar {
+            padding: 15px;
+        }
+
+        .active-navbar {
+            .contact-us-btn {
+                display: block !important;
+            }
+        }
+
+    }
+
+    #intro {
+        h1 {
+            font-size: 45px;
+        }
+
+        .online-reservation {
+            margin: 5% 0;
+        }
+    }
+
+    #about {
+        .video-area {
+            .background-img {
+                height: 380px;
+            }
+        }
+
+        .right-area {
+            margin-left: 0;
+            margin-top: 5%;
+        }
+
+    }
+
+    #gallery {
+        .gallery-area {
+            .top {
+                margin-bottom: 0 !important;
+            }
+        }
+
+        .img-area {
+            margin-bottom: 15px;
+        }
+    }
+
+}
